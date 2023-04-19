@@ -602,7 +602,7 @@ input::-webkit-inner-spin-button {
 
 /* Screan breakpoints */
 
-@media (min-width: 1201px) {
+@media (min-width: 1210px) {
     .home {
         min-height: 71.1rem;
     }
@@ -912,9 +912,13 @@ input::-webkit-inner-spin-button {
         }
 
         .home {
-            padding: 0 3% 30rem;
+            padding-top: 30rem;
         }
 
+        .profession-container {
+            display: none;
+        }
+/* 
         .home .portfolio-box .profession:nth-child(1) {
             transform: rotate(-90deg) translate(-110px, -220px);
         }
@@ -958,7 +962,7 @@ input::-webkit-inner-spin-button {
 
         #editor i {
             margin-bottom: -2rem;
-        }
+        } */
 
         .about-img img {
             width: 90vw;

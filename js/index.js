@@ -17,13 +17,13 @@ downloadButton.addEventListener('click', (event) => {
         fetch(pdfUrl)
             .then(response => response.blob())
             .then(blob => {
-            const url = URL.createObjectURL(blob);
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = 'Curriculum-vitae.pdf';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = 'Curriculum-vitae.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
             });
 })
 
