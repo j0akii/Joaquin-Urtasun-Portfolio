@@ -32,11 +32,12 @@
         <div class="home-content">
             <h3><span>Hello,</span> Its me!</h3>
             <h1>Joaquín Urtasun</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur placeat dolorem, nisi provident commodi vitae, id minima.</p>
+            <p>Hi, this is my personal website, it's my portfolio, I hope you can find what you are looking for, if you have any
+            problem with the site you can let me know in the contact section.</p>
 
             <div class="social-media">
                 <a href="https://github.com/j0akii" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com/in/joaqu%C3%ADn-urtasun/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.linkedin.com/in/joaquin-urtasun/" target="_blank"><i class='bx bxl-linkedin'></i></a>
                 <a href="#"><i class='bx bxl-instagram-alt'></i></a>
                 <a href="#"><i class='bx bxl-twitter'></i></a>
             </div>
@@ -76,14 +77,48 @@
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="./img/about-img.png" alt="X">
+            <img id="img-about" src="./img/Career Guides .png" alt="X">
         </div>
 
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3>Hi, I'm a developer, I'm Here To Code!</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo illo officiis quidem excepturi dolores voluptatum incidunt rerum ratione, ea exercitationem corporis, sint repellat optio rem? Eius voluptas placeat vitae iusto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam molestias porro velit iste asperiores nostrum hic facere consequuntur. Magnam fuga inventore eius nobis? Veniam harum explicabo labore quisquam, eveniet doloribus!</p>
-            <a href="#" class="btn">Read More</a>
+            <h3>I'm a developer, I'm Here To Code!</h3>
+            <div class="about-text" id="about-text">
+                <p>Hi, I'm currently finishing my career as a Full-Stack developer at Henry and I'm still looking for an active job with
+                the desire to start my first steps in software development. I am looking for a place that allows me to grow personally
+                and professionally being part of the team; I am very passionate about what I do and I am always looking to learn new
+                technologies to implement them in my daily work!
+            </div>
+            <div class="more-text" id="more-text">
+                <p>The technologies I currently use are:<p>
+                    <ul>
+                        <li>- JavaScript</li>
+                        <li>- React</li>
+                        <li>- Redux</li>
+                        <li>- Node</li>
+                        <li>- Git</li>
+                        <li>- CSS</li>
+                        <li>- HTML</li>
+                        <li>- SQL</li>
+                        <li>- Postgre</li>
+                    </ul>
+                    <p>My skills to highlight are:</p>
+                    <ul>
+                        <li>- Advanced English level</li>
+                        <li>- Proactivity</li>
+                        <li>- Adaptability</li>
+                        <li>- Good problem solving skills</li>
+                        <li>- Kindness and good interpersonal relations</li>
+                        <li>- Continuous learning and motivation to constantly improve</li>
+                        <li>- Leadership skills</li>
+                        <li>- Team player</li>
+                        <li>- Ability to listen and learn from others</li>
+                        <li>- Critical thinking</li>
+                    </ul>
+                    <p>If you have any doubts or questions please do not hesitate to write me and I will be happy to answer any of them!</p>
+                </p>
+            </div>
+            <a href="#" class="btn" id="read-more">Read More</a>
         </div>
     </section>
 
@@ -241,16 +276,16 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form action="https://formspree.io/f/mgebraaq" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text"  name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Phone Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" name="number" placeholder="Phone Number">
+                <input type="text" name="Subject" placeholder="Email Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>

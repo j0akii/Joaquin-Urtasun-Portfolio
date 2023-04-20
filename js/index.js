@@ -1,5 +1,5 @@
-let menuIcon = document.querySelector('#menu-icon');
-let navBar = document.querySelector('.navbar');
+const menuIcon = document.querySelector('#menu-icon');
+const navBar = document.querySelector('.navbar');
 
 
 menuIcon.onclick = () => {
@@ -7,7 +7,7 @@ menuIcon.onclick = () => {
     navBar.classList.toggle('act');
 }
 
-////////////////////////////////////
+//////////////////////////////////////////
 
 const downloadButton = document.querySelector('#downloadFile')
 
@@ -26,6 +26,28 @@ downloadButton.addEventListener('click', (event) => {
                 document.body.removeChild(link);
             });
 })
+
+//////////////////////////////////////////
+
+const readMore = document.querySelector('#read-more');
+const aboutText = document.querySelector('#more-text');
+let isShown = false;
+
+readMore.onclick = (event) => {
+    event.preventDefault();
+
+  if (isShown) {
+    aboutText.classList.remove('show');
+    readMore.textContent = 'Read More';
+    isShown = false;
+  } else {
+    aboutText.classList.add('show');
+    readMore.textContent = 'Show Less';
+    isShown = true;
+  }
+}
+
+//////////////////////////////////////////
 
 
 let sections = document.querySelectorAll('section');
@@ -70,12 +92,22 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
-let darkModeIcon = document.querySelector('#darkIcon');
+const darkModeIcon = document.querySelector('#darkIcon');
+const imgAbout = document.querySelector('#img-about');
+let isDark = false;
 
 darkModeIcon.onclick = () => {
 
     darkModeIcon.classList.toggle('bx-sun');
-    document.body.classList.toggle('dark-mode')
+    document.body.classList.toggle('dark-mode');
+
+      if (isDark) {
+        imgAbout.src = './img/Career Guides .png';
+        isDark = false;
+    } else {
+        imgAbout.src = './img/Career Guides2 .png';
+        isDark = true;
+    }
 }
 
 ScrollReveal({ 

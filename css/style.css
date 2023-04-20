@@ -303,13 +303,10 @@ span {
 
 .about {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 4rem;
-}
-
-.about-img img {
-    width: 70vh;
 }
 
 .heading {
@@ -318,6 +315,7 @@ span {
 }
 
 .about-content h2 {
+    display: none;
     text-align: left;
     line-height: 1.2;
 }
@@ -326,11 +324,34 @@ span {
     font-size: 3rem;
 }
 
-.about-content p {
+.about-content .btn {
+    margin-top: 1rem;
+}
+
+.about-content .about-text p {
+    font-size: 1.6rem;
+}
+
+.about-content .more-text {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease;
+}
+
+.about-content .more-text.show {
+    max-height: 100vh;
+    transition: max-height 0.5s ease;
+}
+
+.about-content .more-text p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
 
+.about-content .more-text li {
+    list-style-type: none;
+    font-size: 1.6rem;
+}
 .services {
     display: flex;
     flex-direction: column;
@@ -561,9 +582,9 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-/* input[type=number] {
+input[type=number] {
     -moz-appearance: textfield;
-} */
+}
 
 .footer {
     display: flex;
@@ -604,6 +625,7 @@ input::-webkit-inner-spin-button {
 
 @media (min-width: 1210px) {
     .home {
+        height: 100vh;
         min-height: 71.1rem;
     }
     
