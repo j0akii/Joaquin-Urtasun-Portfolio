@@ -1013,6 +1013,15 @@ input[type=number] {
             display: none;
         }
 
+        .about-content h3 {
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .about-content p {
+            margin-bottom: 3rem;
+        }
+
         .contact form .input-box input {
             width: 100%;
         }
