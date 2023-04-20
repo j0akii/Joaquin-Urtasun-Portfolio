@@ -728,6 +728,7 @@ input[type=number] {
     }
 
     .about {
+        flex-direction: column;
         text-align: center;
     }
 
