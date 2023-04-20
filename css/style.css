@@ -995,6 +995,16 @@ input[type=number] {
             margin-bottom: -2rem;
         } */
 
+        .home-content h1 {
+            font-size: 4rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        
+        .home-content p {
+            padding-bottom: 10rem;
+        }
+
         .about-content h2 {
             display: block;
         }
