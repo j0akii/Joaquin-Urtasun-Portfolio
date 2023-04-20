@@ -352,6 +352,7 @@ span {
     list-style-type: none;
     font-size: 1.6rem;
 }
+
 .services {
     display: flex;
     flex-direction: column;
@@ -730,6 +731,10 @@ input[type=number] {
     .about {
         flex-direction: column;
         text-align: center;
+    }
+
+    .about-content .more-text li {
+        text-align: left;
     }
 
     .about h2 {
