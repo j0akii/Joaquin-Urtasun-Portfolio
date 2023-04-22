@@ -395,7 +395,7 @@ span {
 
 .portfolio .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
@@ -458,6 +458,11 @@ span {
     border-radius: 50%;
     font-size: 2rem;
     color: #333;
+    transition: .5s ease;
+}
+
+.portfolio-layer i:hover {
+    border-radius: 17%;
 }
 
 .testimonial-container {
