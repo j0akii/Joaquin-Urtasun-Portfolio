@@ -189,8 +189,9 @@ section {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    width: 768px;
-    height: 768px;
+    width: 76.8rem;
+    height: 76.8rem;
+    max-height: 100vh;
     overflow: hidden;
     pointer-events: none;       
 }
@@ -624,7 +625,7 @@ input[type=number] {
 
 /* Screan breakpoints */
 
-@media (min-width: 1210px) {
+/* @media (min-width: 1210px) {
     .home {
         height: 100vh;
         min-height: 71.1rem;
@@ -638,7 +639,7 @@ input[type=number] {
         position: fixed;
         right: 6rem;
     }
-}
+} */
 
 @media (max-width: 1200px) {
     html {
