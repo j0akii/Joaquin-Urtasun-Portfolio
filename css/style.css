@@ -13,7 +13,7 @@
 
 :root {
   --bg-color: #fdfdfd;
-  --text-color: #333;
+  --text-color: #4f4f4f;
   --main-color: #00c8b0;
   --secondary-color: #344d7f;
   --white-color: #fdfdfd;
@@ -310,7 +310,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(100, 100, 100, 0.5);
   z-index: 1000;
   justify-content: center;
   align-items: center;
@@ -324,14 +324,14 @@ section {
   border-radius: 8px;
   width: 100%;
   max-width: 400px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   text-align: center;
   transform: translateY(100%);
   animation: slideUp 0.5s ease forwards;
 }
 
 .modal-content h2 {
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: var(--text-color);
 }
 
@@ -339,13 +339,27 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin: -20px -20px 10px -20px;
+  background: rgba(240, 240, 240, 0.9);
+  padding: 10px 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.subContentTitle .title {
+  font-size: 2rem;
+  color: var(--text-color);
 }
 
 .subContentButtons {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 10px -20px -20px -20px;
+  background: rgba(240, 240, 240, 0.9);
+  padding: 10px 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .subContentButtons p {
@@ -355,6 +369,10 @@ section {
 .close-btn {
   display: flex;
   align-items: center;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  padding: 2rem;
   justify-content: center;
   border-radius: 50%;
   transition: 0.5s ease;
@@ -362,13 +380,13 @@ section {
 }
 
 .close-btn .bx {
-  font-size: 1.2rem;
+  font-size: 3rem;
   color: var(--text-color);
   font-weight: 600;
 }
 
 .close-btn:hover {
-  background: #3333331a;
+  background: #33333323;
 }
 
 @keyframes slideUp {
@@ -402,7 +420,7 @@ section {
 .modal i {
   margin: 5rem;
   font-size: 20rem;
-  color: rgba(211, 211, 211, 0.6);
+  color: rgba(240, 240, 240, 0.9);
 }
 
 span {

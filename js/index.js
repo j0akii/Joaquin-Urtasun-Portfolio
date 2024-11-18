@@ -22,7 +22,7 @@ closeModalButton.addEventListener("click", () => {
   modal.classList.add("modal-hidden");
   setTimeout(() => {
     modal.style.display = "none";
-    body.classList.remove("no-scroll");
+    html.classList.remove("no-scroll");
   }, 100);
 });
 
@@ -31,7 +31,7 @@ modal.addEventListener("click", (e) => {
     modal.classList.add("modal-hidden");
     setTimeout(() => {
       modal.style.display = "none";
-      body.classList.remove("no-scroll");
+      html.classList.remove("no-scroll");
     }, 100);
   }
 });
@@ -57,6 +57,7 @@ downloadButtonSpanish.addEventListener("click", (event) => {
   modal.classList.add("modal-hidden");
   setTimeout(() => {
     modal.style.display = "none";
+    html.classList.remove("no-scroll");
   }, 100);
 });
 
@@ -78,6 +79,7 @@ downloadButtonEnglish.addEventListener("click", (event) => {
   modal.classList.add("modal-hidden");
   setTimeout(() => {
     modal.style.display = "none";
+    html.classList.remove("no-scroll");
   }, 100);
 });
 
