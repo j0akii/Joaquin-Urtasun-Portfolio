@@ -10,17 +10,20 @@ menuIcon.onclick = () => {
 const modal = document.getElementById("modal");
 const openModalButton = document.getElementById("openModal");
 const closeModalButton = document.getElementById("closeModal");
+const html = document.documentElement;
 
 openModalButton.addEventListener("click", () => {
   modal.style.display = "flex";
   modal.classList.remove("modal-hidden");
+  html.classList.add("no-scroll");
 });
 
 closeModalButton.addEventListener("click", () => {
   modal.classList.add("modal-hidden");
   setTimeout(() => {
     modal.style.display = "none";
-  }, 500);
+    body.classList.remove("no-scroll");
+  }, 100);
 });
 
 modal.addEventListener("click", (e) => {
@@ -28,11 +31,11 @@ modal.addEventListener("click", (e) => {
     modal.classList.add("modal-hidden");
     setTimeout(() => {
       modal.style.display = "none";
-    }, 500);
+      body.classList.remove("no-scroll");
+    }, 100);
   }
 });
 
-//////////////////////////////////////////
 const downloadButtonEnglish = document.querySelector("#downloadFileEnglish");
 const downloadButtonSpanish = document.querySelector("#downloadFileSpanish");
 
@@ -51,6 +54,10 @@ downloadButtonSpanish.addEventListener("click", (event) => {
       link.click();
       document.body.removeChild(link);
     });
+  modal.classList.add("modal-hidden");
+  setTimeout(() => {
+    modal.style.display = "none";
+  }, 100);
 });
 
 downloadButtonEnglish.addEventListener("click", (event) => {
@@ -68,6 +75,10 @@ downloadButtonEnglish.addEventListener("click", (event) => {
       link.click();
       document.body.removeChild(link);
     });
+  modal.classList.add("modal-hidden");
+  setTimeout(() => {
+    modal.style.display = "none";
+  }, 100);
 });
 
 //////////////////////////////////////////

@@ -316,12 +316,13 @@ section {
   align-items: center;
 }
 
-/* Contenedor del modal */
 .modal-content {
+  display: flex;
+  flex-direction: column;
   background: #fff;
   padding: 20px;
   border-radius: 8px;
-  width: 90%;
+  width: 100%;
   max-width: 400px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -329,19 +330,45 @@ section {
   animation: slideUp 0.5s ease forwards;
 }
 
-/* Botón de cerrar */
+.modal-content h2 {
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+.subContentTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.subContentButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.subContentButtons p {
+  color: rgba(163, 163, 163, 0.6);
+}
+
 .close-btn {
-  background: #ff5e57;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.5s ease;
   cursor: pointer;
-  font-size: 14px;
+}
+
+.close-btn .bx {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  font-weight: 600;
 }
 
 .close-btn:hover {
-  background: #e04848;
+  background: #3333331a;
 }
 
 @keyframes slideUp {
@@ -354,8 +381,28 @@ section {
 }
 
 .modal-hidden .modal-content {
-  animation: none;
   transform: translateY(100%);
+  animation: slideDown 0.5s ease forwards;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1000%);
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100%;
+}
+
+.modal i {
+  margin: 5rem;
+  font-size: 20rem;
+  color: rgba(211, 211, 211, 0.6);
 }
 
 span {
