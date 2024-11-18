@@ -1,300 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joaquín Urtasun</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header class="header">
-        <a href="#" class="logo">j0ak!</a>
+      <a href="#" class="logo">j0ak!</a>
 
-        <nav class="navbar">
-            <a href="#home" class="act">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Technologies</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
+      <nav class="navbar">
+        <a href="#home" class="act">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Technologies</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-        <div class="bx bx-moon" id="darkIcon"></div>
+      <div class="bx bx-moon" id="darkIcon"></div>
 
-        <div class="bx bx-menu" id="menu-icon"></div>
+      <div class="bx bx-menu" id="menu-icon"></div>
     </header>
 
     <section class="home" id="home">
-        <div class="home-content">
-            <h3><span>Hello,</span> Its me!</h3>
-            <h1>Joaquín Urtasun</h1>
-            <p>Hi, this is my personal website, it's my portfolio, I hope you can find what you are looking for, if you have any
-            problem with the site you can let me know in the contact section.</p>
+      <div class="home-content">
+        <h3><span>Hello,</span> Its me!</h3>
+        <h1>Joaquín Urtasun</h1>
+        <p>
+          Hi, this is my personal website, it's my portfolio, I hope you can
+          find what you are looking for, if you have any problem with the site
+          you can let me know in the contact section.
+        </p>
 
-            <div class="social-media">
-                <a href="https://github.com/j0akii" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com/in/joaquin-urtasun/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://wa.me/qr/LHBISPWMB6EGF1" target="_blank"><i class='bx bxl-whatsapp' id="wpp"></i></a>
-                <a href="#contact"><i class='bx bx-mail-send'></i></a>
-            </div>
-
-            <a href="#" class="btn" id="downloadFile">Download CV</a>
+        <div class="social-media">
+          <a href="https://github.com/j0akii" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/joaquin-urtasun/" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://wa.me/qr/LHBISPWMB6EGF1" target="_blank"
+            ><i class="bx bxl-whatsapp" id="wpp"></i
+          ></a>
+          <a href="#contact"><i class="bx bx-mail-send"></i></a>
         </div>
 
-        <div class="profession-container">
-            <div class="profession-box">
-                <div class="profession" id="web-developer" style="--i:0">
-                    <i class='bx bx-code-alt'></i>
-                    <h3>Web Developer</h3>
-                </div>
-                <div class="profession" id="front-end" style="--i:1">
-                    <i class='bx bxl-react'></i>
-                    <h3>Front End</h3>
-                </div>
-                <div class="profession" id="back-end" style="--i:2">
-                    <i class='bx bx-code-curly'></i>
-                    <h3>Back End</h3>
-                </div> 
-                <div class="profession" id="editor" style="--i:3">
-                    <i class='bx bxs-file-image'></i>
-                    <h3>Editor</h3>
-                </div>
+        <a href="#" class="btn" id="openModal">Download CV</a>
+      </div>
 
-                <div class="circle"></div>
-            </div>
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" id="web-developer" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Developer</h3>
+          </div>
+          <div class="profession" id="front-end" style="--i: 1">
+            <i class="bx bxl-react"></i>
+            <h3>Front End</h3>
+          </div>
+          <div class="profession" id="back-end" style="--i: 2">
+            <i class="bx bx-code-curly"></i>
+            <h3>Back End</h3>
+          </div>
+          <div class="profession" id="editor" style="--i: 3">
+            <i class="bx bxs-file-image"></i>
+            <h3>Editor</h3>
+          </div>
 
-            <div class="overlay"></div>
+          <div class="circle"></div>
         </div>
 
-        <div class="img-home">
-            <img src="img/header-img.png" alt="X">
-        </div>
+        <div class="overlay"></div>
+      </div>
+
+      <div class="img-home">
+        <img src="img/header-img.png" alt="X" />
+      </div>
     </section>
 
-    <section class="about" id="about">
-        <div class="about-img">
-            <img id="img-about" src="./img/Career Guides .png" alt="X">
-        </div>
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <h2>in which language do you prefer to download the CV?</h2>
+        <button class="btn" id="downloadFileEnglish">English</button>
+        <button class="btn" id="downloadFileSpanish">Español</button>
+        <button class="close-btn" id="closeModal">x</button>
+      </div>
+    </div>
 
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>I'm a developer, I'm Here To Code!</h3>
-            <div class="about-text" id="about-text">
-                <p>Hi, I'm currently finishing my career as a Full-Stack developer at Henry and I'm still looking for an active job with
-                the desire to start my first steps in software development. I am looking for a place that allows me to grow personally
-                and professionally being part of the team; I am very passionate about what I do and I am always looking to learn new
-                technologies to implement them in my daily work!
-            </div>
-            <div class="more-text" id="more-text">
-                <p>The technologies I currently use are:<p>
-                    <ul>
-                        <li>- JavaScript</li>
-                        <li>- React</li>
-                        <li>- Redux</li>
-                        <li>- Node</li>
-                        <li>- Git</li>
-                        <li>- CSS</li>
-                        <li>- HTML</li>
-                        <li>- SQL</li>
-                        <li>- Postgre</li>
-                    </ul>
-                    <p>My skills to highlight are:</p>
-                    <ul>
-                        <li>- Advanced English level</li>
-                        <li>- Proactivity</li>
-                        <li>- Adaptability</li>
-                        <li>- Good problem solving skills</li>
-                        <li>- Kindness and good interpersonal relations</li>
-                        <li>- Continuous learning and motivation to constantly improve</li>
-                        <li>- Leadership skills</li>
-                        <li>- Team player</li>
-                        <li>- Ability to listen and learn from others</li>
-                        <li>- Critical thinking</li>
-                    </ul>
-                    <p>If you have any doubts or questions please do not hesitate to write me and I will be happy to answer any of them!</p>
-                </p>
-            </div>
-            <a href="#" class="btn" id="read-more">Read More</a>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img id="img-about" src="./img/Career Guides .png" alt="X" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>I'm a developer, I'm Here To Code!</h3>
+        <div class="about-text" id="about-text">
+          <p>
+            Hello! I am a computer technician and received from Henry's academy,
+            I have more than 3 years of experience in software development and
+            more than 2 years in the front-end sector with technologies such as:
+            React, CSS, HTML, JavaScript, TypeScript, Redux, WordPress, etc.
+            although I am a Full-stack developer. I am looking for a place that
+            allows me to grow personally and professionally being part of the
+            team; I am very passionate about what I do and I am always looking
+            to learn new technologies to implement them in my daily work.
+          </p>
         </div>
+        <div class="more-text" id="more-text">
+          <p>The technologies I currently use are:</p>
+          <p />
+          <ul>
+            <li>- JavaScript</li>
+            <li>- TypeScript</li>
+            <li>- React</li>
+            <li>- Redux</li>
+            <li>- Node</li>
+            <li>- Git</li>
+            <li>- CSS</li>
+            <li>- HTML</li>
+            <li>- SQL</li>
+            <li>- Postgre</li>
+            <li>- WordPress</li>
+          </ul>
+          <p>My skills to highlight are:</p>
+          <ul>
+            <li>- Advanced English level</li>
+            <li>- Proactivity</li>
+            <li>- Adaptability</li>
+            <li>- Good problem solving skills</li>
+            <li>- Kindness and good interpersonal relations</li>
+            <li>- Continuous learning and motivation to constantly improve</li>
+            <li>- Leadership skills</li>
+            <li>- Team player</li>
+            <li>- Ability to listen and learn from others</li>
+            <li>- Critical thinking</li>
+          </ul>
+          <p>
+            If you have any doubts or questions please do not hesitate to write
+            me and I will be happy to answer any of them!
+          </p>
+        </div>
+        <a href="#" class="btn" id="read-more">Read More</a>
+      </div>
     </section>
 
     <section class="services" id="services">
-        <h2 class="heading">My <span>Technologies</span></h2>
+      <h2 class="heading">My <span>Technologies</span></h2>
 
-        <div class="iconContainer">
-            <div class="Icon">
-                <h3>JavaScript</h3>
-                <i class='bx bxl-javascript'></i>
-            </div>
-            
-            <div class="Icon">
-                <h3>CSS</h3>
-                <i class='bx bxl-css3'></i>
-            </div>
-            
-            <div class="Icon">
-                <h3>HTML</h3>
-                <i class='bx bxl-html5'></i>
-            </div>
-            
-            <div class="Icon">
-                <h3>React</h3>
-                <i class='bx bxl-react'></i>
-            </div>
-            
-            <div class="Icon">
-                <h3>Redux</h3>
-                <i class='bx bxl-redux'></i>
-            </div>
-            
-            <div class="Icon">
-                <h3>Git</h3>
-                <i class='bx bxl-git'></i>
-            </div>
-            
-            <div class="Icon">
-                <h3>NodeJS</h3>
-                <i class='bx bxl-nodejs'></i>
-            </div>
-            
-            <div class="Icon">
-                <h3>Postgre SQL</h3>
-                <i class='bx bxl-postgresql'></i>
-            </div>
+      <div class="iconContainer">
+        <div class="Icon">
+          <h3>JavaScript</h3>
+          <i class="bx bxl-javascript"></i>
         </div>
 
+        <div class="Icon">
+          <h3>CSS</h3>
+          <i class="bx bxl-css3"></i>
+        </div>
 
+        <div class="Icon">
+          <h3>HTML</h3>
+          <i class="bx bxl-html5"></i>
+        </div>
+
+        <div class="Icon">
+          <h3>React</h3>
+          <i class="bx bxl-react"></i>
+        </div>
+
+        <div class="Icon">
+          <h3>Redux</h3>
+          <i class="bx bxl-redux"></i>
+        </div>
+
+        <div class="Icon">
+          <h3>Git</h3>
+          <i class="bx bxl-git"></i>
+        </div>
+
+        <div class="Icon">
+          <h3>NodeJS</h3>
+          <i class="bx bxl-nodejs"></i>
+        </div>
+
+        <div class="Icon">
+          <h3>Postgre SQL</h3>
+          <i class="bx bxl-postgresql"></i>
+        </div>
+      </div>
     </section>
 
     <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Project</span></h2>
+      <h2 class="heading">Latest <span>Project</span></h2>
 
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="img/Portfolio-1.gif" alt="X">
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="img/Portfolio-1.gif" alt="X" />
 
-                <div class="portfolio-layer">
-                    <h4>Rick And Morty</h4>
-                    <p>This is the IP (integrative project) that I did during the course of 'Henry'. It is a SPA (single page application), it
-                    has both front-end and back-end parts.</p>
-                    <a href="https://github.com/j0akii/Rick-And-Morty-my-first-web" target="_blank"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="img/portfolio default.jpeg" alt="X">
-
-                <div class="portfolio-layer">
-                    <h4>Coming soon...</h4>
-                    <p>Currently I am working on more projects!</p>
-                    <!-- <a href="#"><i class="bx bx-link-external"></i></a> -->
-                </div>
-            </div>
-            <!-- <div class="portfolio-box">
-                <img src="img/portfolio default.jpeg" alt="X">
-
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste officia non magni repudiandae sequi.</p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="img/portfolio default.jpeg" alt="X">
-
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste officia non magni repudiandae sequi.</p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="img/portfolio default.jpeg" alt="X">
-
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste officia non magni repudiandae sequi.</p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="img/portfolio default.jpeg" alt="X">
-
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste officia non magni repudiandae sequi.</p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                </div> -->
-            </div>
+          <div class="portfolio-layer">
+            <h4>Rick And Morty</h4>
+            <p>
+              This is the IP (integrative project) that I did during the course
+              of 'Henry'. It is a SPA (single page application), it has both
+              front-end and back-end parts.
+            </p>
+            <a
+              href="https://github.com/j0akii/Rick-And-Morty-my-first-web"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
         </div>
+        <div class="portfolio-box">
+          <img src="img/portfolio default.jpeg" alt="X" />
+
+          <div class="portfolio-layer">
+            <h4>Coming soon...</h4>
+            <p>Currently I am working on more projects!</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <div class="testimonial-container">
-        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+      <h2 class="heading">Valuable <span>Testimonial</span></h2>
 
-        <div class="testimonial-wrapper">
-            <div class="testimonial-box mySwiper">
-                <div class="testimonial-content swiper-wrapper">
-                    <div class="testimonial-slide swiper-slide">
-                        <img src="img/testimonial-logo-1.jpeg" alt="X">
-                        <h3>Fundacion Empresarial De La Patagonia (FEPA)</h3>
-                        <p>Muy autodidacta, eficiente y eficaz. Inició en Fepa con un curso de desarrollador web el cual aprobó y superó
-                        ampliamente las expectativas. Luego realizó algunos trabajos de desarrollo que le solicitamos. Muy recomendable.</p>
-                    </div>
-                    <div class="testimonial-slide swiper-slide">
-                        <img src="img/question.png" alt="X">
-                        <h3>Coming soon...</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, asperiores natus nesciunt pariatur, eaque,
-                            impedit accusamus doloribus commodi velit nisi laudantium! Laborum repellendus iure vitae officia fugit quam</p>
-                    </div>
-                    <!-- <div class="testimonial-slide swiper-slide">
-                        <img src="img/about-img.png" alt="X">
-                        <h3>NPC 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, asperiores natus nesciunt pariatur, eaque,
-                            impedit accusamus doloribus commodi velit nisi laudantium! Laborum repellendus iure vitae officia fugit quam</p>
-                    </div> -->
-                </div>
-
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
+      <div class="testimonial-wrapper">
+        <div class="testimonial-box mySwiper">
+          <div class="testimonial-content swiper-wrapper">
+            <div class="testimonial-slide swiper-slide">
+              <img src="img/testimonial-logo-1.jpeg" alt="X" />
+              <h3>Fundacion Empresarial De La Patagonia (FEPA)</h3>
+              <p>
+                Very self-taught, efficient and effective. He started at Fepa
+                with a web developer course which he passed and far exceeded
+                expectations. Then he did some development work that we
+                requested. Highly recommended.
+              </p>
             </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="img/question.png" alt="X" />
+              <h3>Coming soon...</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi, asperiores natus nesciunt pariatur, eaque, impedit
+                accusamus doloribus commodi velit nisi laudantium! Laborum
+                repellendus iure vitae officia fugit quam
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
+      </div>
     </div>
 
     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
+      <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="https://formspree.io/f/mgebraaq" method="POST">
-            <div class="input-box">
-                <input type="text"  name="name" placeholder="Full Name">
-                <input type="email" name="email" placeholder="Email Address">
-            </div>
-            <div class="input-box">
-                <input type="number" name="number" placeholder="Phone Number">
-                <input type="text" name="Subject" placeholder="Email Subject">
-            </div>
-            <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
+      <form action="https://formspree.io/f/mgebraaq" method="POST">
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Full Name" />
+          <input type="email" name="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" name="number" placeholder="Phone Number" />
+          <input type="text" name="Subject" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
     </section>
 
     <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2023 by j0aki | All Rights Reserved</p>
-        </div>
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by j0aki | All Rights Reserved</p>
+      </div>
 
-        <div class="footer-icon">
-            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-        </div>
+      <div class="footer-icon">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
     </footer>
-
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
