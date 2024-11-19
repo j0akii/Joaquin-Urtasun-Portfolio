@@ -1080,51 +1080,6 @@ input[type="number"] {
     .profession-container {
       display: none;
     }
-    /* 
-        .home .portfolio-box .profession:nth-child(1) {
-            transform: rotate(-90deg) translate(-110px, -220px);
-        }
-
-        .home .portfolio-box .profession:nth-child(2) {
-            transform: rotate(0deg) translate(5px, -335px);
-        }
-
-        .home .portfolio-box .profession:nth-child(3) {
-            transform: rotate(90deg) translate(-105px, -440px);
-        }
-
-        .home .portfolio-box .profession:nth-child(4) {
-            transform: rotate(180deg) translate(-210px, -220px);
-        }
-
-        #back-end {
-            margin-left: 50rem;
-            margin-bottom: 17rem;
-        }
-
-        #back-end h3 {
-            width: 15rem;
-        }
-
-        #back-end i {
-            margin-bottom: 1rem;
-        }
-
-        #web-developer {
-            margin-left: 4rem;
-            margin-bottom: 5rem;
-            margin-right: 8rem;
-        }
-
-        #editor {
-            margin-right: 30rem;
-            padding-right: 3rem;
-            padding-left: 2rem;
-        }
-
-        #editor i {
-            margin-bottom: -2rem;
-        } */
 
     .home-content h1 {
       font-size: 4rem;
