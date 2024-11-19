@@ -58,14 +58,14 @@ body {
   font-size: 2.5rem;
   color: var(--main-color);
   font-weight: 600;
-  cursor: default;
+  cursor: pointer;
   margin-right: auto;
 }
 
 .navbar a {
   position: relative;
   font-size: 1.7rem;
-  color: var(--white-color);
+  color: var(--text-color);
   font-weight: 500;
   margin-right: 3.5rem;
 }
@@ -95,7 +95,7 @@ body {
 
 #darkIcon {
   font-size: 2.4rem;
-  color: var(--white-color);
+  color: var(--text-color);
   cursor: pointer;
 }
 
@@ -285,7 +285,7 @@ section {
 
 .home .profession-container .overlay {
   position: absolute;
-  top: -20rem;
+  top: 0;
   right: 0;
   width: 0;
   height: 0;
